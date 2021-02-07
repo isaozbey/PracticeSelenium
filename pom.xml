@@ -28,11 +28,9 @@
             <version>3.0.0-M5</version>
             <configuration>
                 <includes>
-                    <include>**/*Runner.java</include>
+                    <include>**/*googleRunner.java</include>
                 </includes>
-                <parallel>methods</parallel>
-                <threadCount>2</threadCount>
-                <perCoreThreadCount>false</perCoreThreadCount>
+
             </configuration>
         </plugin>
 
