@@ -32,17 +32,11 @@
                 <perCoreThreadCount>false</perCoreThreadCount>
                 <threadCountMethods>2</threadCountMethods>
                 <includes>
-                    <include>**/googleRunner.java</include>
+                    <include>**/*Runner*.java</include>
                 </includes>
                  <testFailureIgnore>false</testFailureIgnore>
             </configuration>
         </plugin>
-
-
-
-
-
-
 
 
             </plugins>
