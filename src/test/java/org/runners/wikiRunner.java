@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         glue  = "org/step_definitions",
         dryRun = false,
         plugin = {"html:target/cucumberWiki.html","rerun:target/rerun.txt"},
-        tags = "@scenario2"
+        tags = "@smoke"
 
 )
 public class wikiRunner {
