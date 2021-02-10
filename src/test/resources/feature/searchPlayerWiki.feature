@@ -4,7 +4,7 @@ Feature: Search
 
 
 
-  @scenario2
+  @smoke
   Scenario Outline: User search on Wiki
     Given User is  the wiki page
     When use search players "<Name>"
