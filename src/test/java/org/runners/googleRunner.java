@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         glue  = "org/step_definitions",
         dryRun = false,
         plugin = "json:target/cucumberGoogle.json",
-        tags = "@scenario"
+        tags = "@team"
 
 )
 public class googleRunner {

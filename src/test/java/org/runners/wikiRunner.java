@@ -11,9 +11,11 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/feature",
         glue  = "org/step_definitions",
         dryRun = false,
-        plugin = {"html:target/cucumberWiki.html","rerun:target/rerun.txt"},
-        tags = "@smoke"
+        plugin = {"html:target/cucumberWiki.html","rerun:target/rerun.txt"}
+        //tags = "@smoke"
 
 )
 public class wikiRunner {
+
+
 }

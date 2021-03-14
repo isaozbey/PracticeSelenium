@@ -1,6 +1,6 @@
 package PracticeJava;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,7 +10,7 @@ public class sortArrayList {
 
     ArrayList<Integer> list=new ArrayList<>(Arrays.asList(5,14,24,62,35,85,74,47,48,95,68,58,25,27,19,91,37,82,28,45,47));
 
-    @Test
+    @org.junit.Test
     public void test1(){
         Collections.sort(list);
 
