@@ -1,8 +1,6 @@
 Feature: Search
   User search soccer players
 
-
-
   Scenario Outline: User search Besiktas players on Google
     Given User is on the google page
     When User type soccer players "<Name>"

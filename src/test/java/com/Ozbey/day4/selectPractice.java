@@ -1,5 +1,6 @@
 package com.Ozbey.day4;
 
+import com.Ozbey.utilities.Driver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,7 +16,8 @@ public class selectPractice {
     @Test
     public void test1(){
         WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver=new ChromeDriver();
+
         driver.get("http://practice.cybertekschool.com/dropdown");
         WebElement dropdown=driver.findElement(By.xpath("//select[@id='dropdown']"));
         Select select=new Select(dropdown);
@@ -27,7 +29,8 @@ public class selectPractice {
     @Test
     public void test2(){
         WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver=new ChromeDriver();
+
         driver.get("http://practice.cybertekschool.com/dropdown");
         Select select=new Select(driver.findElement(By.name("Languages")));
         List<WebElement> options =select.getOptions();
